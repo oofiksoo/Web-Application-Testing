@@ -47,7 +47,7 @@ function App() {
         <Display strikes={strikes} balls={balls} />
       </div>
       <div className="controls">
-        <h3>Scorebord Controls:</h3>
+        <h3>Scoreboard Controls:</h3>
         <Dashboard ball={ball} strike={strike} foul={foul} hit={hit} />
       </div>
     </div>
