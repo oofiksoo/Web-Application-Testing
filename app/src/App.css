@@ -1,0 +1,74 @@
+.displaybox {
+    border: 2px solid black;
+    margin: 2rem;
+    text-align: center;
+    padding: 2rem;
+    background-color: whitesmoke;
+}
+
+.display-count {
+    display: flex;
+    padding: 2rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    width: 30%;
+    background-color: rgba(0, 255, 50, 0.5);
+}
+
+.scoreboard {
+    padding: 0 2rem;
+}
+
+.controls {
+    padding: 0 2rem;
+}
+
+.scoreControls {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 4rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    width: 25%;
+    background-color: rgba(6, 208, 235, 0.5);
+}
+
+.hitbutton {
+    background-color: green;
+    color: white;
+    border: 0px solid green;
+    border-radius: 100%;
+    margin: 0 0.5rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 3px black;
+}
+
+.foulbutton {
+    background-color: blue;
+    color: white;
+    border: 0px solid blue;
+    border-radius: 100%;
+    margin: 0 0.5rem;
+    padding: 1rem 0.8rem;
+    box-shadow: 3px 3px 3px black;
+}
+
+.strikebutton {
+    background-color: red;
+    color: white;
+    border: 0px solid red;
+    border-radius: 100%;
+    margin: 0 0.5rem;
+    padding: 1rem 0.5rem;
+    box-shadow: 3px 3px 3px black;
+}
+
+.ballbutton {
+    background-color: yellow;
+    color: black;
+    border: 0px solid yellow;
+    border-radius: 100%;
+    margin: 0 0.5rem;
+    padding: 1rem 0.8rem;
+    box-shadow: 3px 3px 3px black;
+}
